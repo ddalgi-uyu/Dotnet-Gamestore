@@ -12,4 +12,9 @@ public class GameStoreContext(DbContextOptions<GameStoreContext> options) : DbCo
     public DbSet<Game> Games => Set<Game>(); // An object the can be used to query and save instances of game
 
     public DbSet<Genre> Genres => Set<Genre>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+    }
 }
