@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
     "name": "Mincraft",
-    "genre": "Kids and Family",
+    "genreId": 5,
     "price": 19.99,
     "releaseDate": "2011-11-18"
 }
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
     "name": "Street Fighter II Turbo",
-    "genre": "Fighting",
+    "genreId": 1,
     "price": 19.99,
     "releaseDate": "1991-02-01"
 }
