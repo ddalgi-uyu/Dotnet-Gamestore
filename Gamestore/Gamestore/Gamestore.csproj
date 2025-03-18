@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Endpoints\" />
     <Folder Include="Entities\" />
     <Folder Include="GameDto\" />
   </ItemGroup>
